@@ -1,9 +1,9 @@
-export default function Home() {
+export default function LavoraConNoi(){
 
-    return(
+    return (
         <div className="p-10">
             <h1 className="text-4x1 font-bold">
-                Home Page
+                Lavora con noi
             </h1>
         </div>
     )

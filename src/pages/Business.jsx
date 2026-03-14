@@ -1,9 +1,9 @@
-export default function Home() {
+export default function Business(){
 
-    return(
+    return (
         <div className="p-10">
             <h1 className="text-4x1 font-bold">
-                Home Page
+                Business
             </h1>
         </div>
     )

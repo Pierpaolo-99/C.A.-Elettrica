@@ -1,9 +1,9 @@
-export default function Home() {
+export default function Azienda(){
 
-    return(
+    return (
         <div className="p-10">
             <h1 className="text-4x1 font-bold">
-                Home Page
+                Azienda
             </h1>
         </div>
     )
