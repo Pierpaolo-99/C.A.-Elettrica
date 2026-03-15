@@ -1,6 +1,14 @@
+import { Helmet } from "react-helmet"
+
 export default function LavoraConNoi() {
   return (
     <>
+
+      <Helmet>
+        <title>Lavora con noi - FiberCompany</title>
+        <meta name="description" content="Scopri le soluzioni FiberCompany per aziende e operatori telecom, dalla progettazione all’installazione di reti in fibra ottica." />
+      </Helmet>
+
       <section className="bg-gray-50 py-24">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h1 className="text-4xl font-bold mb-6">Lavora con Noi</h1>
