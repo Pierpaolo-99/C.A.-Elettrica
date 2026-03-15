@@ -26,7 +26,7 @@ export default function Header() {
                             onMouseLeave={() => setOpenMenu(null)}
                             className="relative"
                         >
-                            <button>Business</button>
+                            <Link to={"/business"}>Business</Link>
 
                             {openMenu === "business" && (
                                 <div className="absolute left-0 top-full w-[500px] bg-white shadow-lg p-6 grid grid-cols-2 gap-6">
@@ -60,7 +60,7 @@ export default function Header() {
                             onMouseLeave={() => setOpenMenu(null)}
                             className="relative"
                         >
-                            <button>Azienda</button>
+                            <Link to={"/azienda"}>Azienda</Link>
 
                             {openMenu === "azienda" && (
                                 <div className="absolute left-0 top-full w-[400px] bg-white shadow-lg p-6">
