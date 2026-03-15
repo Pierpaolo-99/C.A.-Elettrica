@@ -1,10 +1,10 @@
+import HomeHero from "../sections/HomeHero"
+
 export default function Home() {
 
     return(
-        <div className="p-10">
-            <h1 className="text-4x1 font-bold">
-                Home Page
-            </h1>
-        </div>
+        <>
+            <HomeHero />
+        </>
     )
 }
