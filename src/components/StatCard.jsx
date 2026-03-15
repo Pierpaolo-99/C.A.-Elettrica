@@ -1,6 +1,6 @@
 export default function StatCard({ number, label }) {
   return (
-    <div className="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition">
+    <div className="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition transition-transform duration-300">
 
       <h3 className="text-3xl font-bold mb-2">{number}</h3>
       <p className="text-gray-600">{label}</p>

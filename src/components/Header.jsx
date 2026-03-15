@@ -85,7 +85,7 @@ export default function Header() {
                     {/* Menu button */}
                     <button
                         onClick={() => setMenuOpen(true)}
-                        className="text-2x1"
+                        className="text-2x1 md:hidden"
                     >
                         ☰
                     </button>
