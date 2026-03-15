@@ -29,7 +29,7 @@ export default function HomeServices() {
 
             <div className="max-w-7x1 mx-auto px-6">
 
-                <h2 className="text-4x1 font-bold text-center mb-16">
+                <h2 className="text-4xl font-bold text-center mb-16">
                     I Nostri Servizi
                 </h2>
 
